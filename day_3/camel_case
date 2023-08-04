@@ -1,0 +1,6 @@
+s=input()
+count=1
+for i in range(1,len(s)):
+    if s[i]==s[i].upper():
+        count=count+1
+print(count)
